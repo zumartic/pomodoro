@@ -4,6 +4,12 @@ body{
   cursor:default;
 }
 
+table{
+	width: 450px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
 h1{
   font-family: 'Coiny', cursive;
 }
