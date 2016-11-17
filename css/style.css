@@ -1,0 +1,134 @@
+body{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  cursor:default;
+}
+
+h1{
+  font-family: 'Coiny', cursive;
+}
+
+.mainDiv{
+  position: relative;
+  width: 206px;
+  height: 190px;
+  margin: 0px auto;
+  margin-top: 100px;
+}
+
+.square{
+  width:100px;
+  height:100px;
+  border-radius: 25px;
+  /*background:#c52329;
+  border:solid 2px #FFF;*/
+  border:solid 2px #000;
+  float:left;
+  transform: skew(180deg,210deg);
+  position: absolute;
+  top: 43px;
+}
+.square2{
+  width:100px;
+  height:100px;
+  border-radius: 25px;
+  /*background:#c52329;*/
+  border:solid 2px #000;
+  float:left;
+  transform: skew(180deg,150deg);
+  position: absolute;
+  left:102px;
+  top: 42px;
+  
+}
+
+.square3{
+  width:114px;
+  height:100px;
+  border-radius: 25px;
+  /*background:#c52329;*/
+  background: white;
+  border:solid 2px #000;
+  float:left;
+  transform: rotate(-30deg) translate(40px, 18px) skewx(30deg);
+  position: absolute;
+  left: 0px;
+  top: -32px; 
+}
+
+.shadow{
+  width:114px;
+  height:90px;
+  border-radius: 25px;
+  /*background: rgba(0,0,0,.2);*/
+  background: white;
+  opacity: 0.1;
+  border:solid 2px #000;
+  float:left;
+  transform: rotate(-30deg) translate(40px, 18px) skewx(30deg);
+  position: absolute;
+  left: 0px;
+  top: 170px; 
+}
+
+.sContent{
+  padding-top: 18px;
+  text-align: center;
+  font-size: 300%;
+}
+
+.s2Content{
+  padding-top: 18px;
+  text-align: center;
+  font-size: 300%;  
+}
+
+.s3Content{
+  /*padding-top: 31px;*/
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-size: 150%;
+}
+
+.shadowContent{
+  padding-top: 28px;
+  text-align: center;
+  font-size: 150%;
+}
+
+footer{
+  padding-top: 100px;
+  padding-bottom: 10px;
+  margin-right: 10px;
+}
+
+footer .fa:hover{
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  color: red;
+}
+
+#volume {
+    width: 60px;
+}
+
+#volume::-moz-range-thumb {
+    background: white;
+    padding: 1px;
+}
+#volume:active::-moz-range-thumb {
+    background: yellow;               
+}
+
+#output {
+    width: 40px;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 6px 8px;
+    text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8">
+		<title>Podomoro clock</title>
+		<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+		<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Coiny|Montserrat"rel="stylesheet"'>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<h1>FreeCodeCamp Pomorodo Clock</h1>
+
+		<table style="width:100%">
+		  <tr>
+			<th>
+			  <h3><i id="s_up" class="fa fa-plus" aria-hidden="true"></i>
+			  <br>SESSION<br>LENGTH<br><i id="s_down" class="fa fa-minus" aria-hidden="true"></i>
+			  </h3>
+			</th>
+			<th>
+			  <div class="mainDiv">
+				<div class="square"><div class="sContent">25</div></div>
+				<div class="square2"><div class="s2Content">00</div></div>
+				<div class="square3"><div class="s3Content">Session Length</div></div>
+				<div class="shadow"><div class="s3Content">Session Length</div></div>
+			  </div>
+			</th>
+			<th>
+			   <h3><i id="b_up" class="fa fa-plus" aria-hidden="true"></i>
+			   <br>BREAK<br>LENGTH<br><i id="b_down" class="fa fa-minus" aria-hidden="true"></i></h3>
+			</th>              
+		   </tr>
+		</table>
+		
+		<footer>Site developed by <a href="https://fi.linkedin.com/in/sami-kangas" target="_blank">Sami Kangas 2016</a> with <a href="https://open.spotify.com/album/0I9syPxS7ZqI3pcuOQ3J1X" target="_blank"><i class="fa fa-lg fa-music"></i></a> and <i class="fa fa-lg fa-heart"></i><input type="range" min="0" max="100" value="50" id="volume" step="5" onchange="showValue(this.value)"/><output id="output">50</output></footer>
+		
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>
